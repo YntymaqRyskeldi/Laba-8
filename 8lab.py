@@ -27,3 +27,16 @@ def newfunc(n,m):
             print(f'\t{j} * {i} = {i * j}', end='') #Результат
         print('')
 newfunc(1,9)
+
+#Baken's function
+def is_prime(num):
+	if num &gt; 1:
+	for i in range(2, num//2):
+		if (num % i) == 0:
+			print(num, "is not a prime number")
+			break
+		else:
+	print(num, "is a prime number")
+	else:
+	print(num, "is not a prime number")
+
